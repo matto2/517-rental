@@ -8,16 +8,7 @@
     <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="photoswipe/dist/photoswipe.css">
-<script type="module">
-import PhotoSwipeLightbox from 'photoswipe/dist/photoswipe-lightbox.esm.js';
-const lightbox = new PhotoSwipeLightbox({
-  gallery: '#my-gallery',
-  children: 'a',
-  pswpModule: () => import('photoswipe/dist/photoswipe.esm.js')
-});
-lightbox.init();
-</script>
+    <link rel="stylesheet" href="https://photoswipe.com/dist/photoswipe.css">
 </head>
 <body>
     {{ content | safe }}
