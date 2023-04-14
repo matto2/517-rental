@@ -1,9 +1,13 @@
 ---
 layout: base.njk
+title: Charming Santa Cruz Craftsman!
 ---
 
-# The Juice!
+# {{ title }}
 
-Northern California's Surf Magazine
+Near Mission Hill Junior High School
 
-"The Juice" was a surf magazine based in Santa Cruz, California that focused on the surf and skate culture of the region. The magazine covered surfing events, had interviews with surfers and artists, and features on local surf spots. It was founded in 1994 by Eric Mitchell and Matt O'Leary and produced 19 issues (semi-quarterly) until the year 2000.
+![front of the house](/img/517-front_IMG_2778.jpeg)
+
+
+This delightful Craftsman-style home is situated on the desirable westside of Santa Cruz, California. It boasts a convenient location within walking distance to bus stops, a health food store, restaurants, and the downtown area, making it easily accessible to amenities. Nestled in a peaceful neighborhood, this home is ideally positioned midway between the entrance to UCSC and Cowells Beach, offering a serene and desirable living environment.
