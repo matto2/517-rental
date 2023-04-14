@@ -9,12 +9,22 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="photoswipe/dist/photoswipe.css">
+<script type="module">
+import PhotoSwipeLightbox from 'photoswipe/dist/photoswipe-lightbox.esm.js';
+const lightbox = new PhotoSwipeLightbox({
+  gallery: '#my-gallery',
+  children: 'a',
+  pswpModule: () => import('photoswipe/dist/photoswipe.esm.js')
+});
+lightbox.init();
+</script>
 </head>
 <body>
     <h1>Charming Santa Cruz Craftsman!</h1>
 <p>Near Mission Hill Junior High School</p>
 <img src="/img/517-front_IMG_2778.jpeg" alt="Image of the front of the house">
 <p>This delightful Craftsman-style home is situated on the desirable westside of Santa Cruz, California. It boasts a convenient location within walking distance to bus stops, a health food store, restaurants, and the downtown area, making it easily accessible to amenities. Nestled in a peaceful neighborhood, this home is ideally positioned midway between the entrance to UCSC and Cowells Beach, offering a serene and desirable living environment.</p>
+<div id="Gallery">
 <div class="grid">
 <a href="/img/IMG_2183.jpeg"><img src="/img/IMG_2183.jpeg" alt="Sample photo"></a>
 <a href="/img/IMG_2505.jpeg"><img src="/img/IMG_2505.jpeg" alt="Sample photo"></a>
@@ -88,6 +98,7 @@
 <a href="/img/IMG_2811.jpeg"><img src="/img/IMG_2811.jpeg" alt="Sample photo"></a>
 <a href="/img/IMG_2812.jpeg"><img src="/img/IMG_2812.jpeg" alt="Sample photo"></a>
 <a href="/img/IMG_2814.jpeg"><img src="/img/IMG_2814.jpeg" alt="Sample photo"></a>
+</div>
 </div>
 </body>
 
