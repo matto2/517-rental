@@ -12,7 +12,8 @@ Near Mission Hill Junior High School
 
 This delightful Craftsman-style home is situated on the desirable westside of Santa Cruz, California. It boasts a convenient location within walking distance to bus stops, a health food store, restaurants, and the downtown area, making it easily accessible to amenities. Nestled in a peaceful neighborhood, this home is ideally positioned midway between the entrance to UCSC and Cowells Beach, offering a serene and desirable living environment.
 
-<div class="grid" id="my-gallery">
+<div id="my-gallery">
+<div class="grid">
 <a href="/img/IMG_2183.jpeg"><img src="/img/IMG_2183.jpeg" alt="Sample photo"></a>
 <a href="/img/IMG_2505.jpeg"><img src="/img/IMG_2505.jpeg" alt="Sample photo"></a>
 <a href="/img/IMG_2506.jpeg"><img src="/img/IMG_2506.jpeg" alt="Sample photo"></a>
@@ -86,6 +87,7 @@ This delightful Craftsman-style home is situated on the desirable westside of Sa
 <a href="/img/IMG_2812.jpeg"><img src="/img/IMG_2812.jpeg" alt="Sample photo"></a>
 <a href="/img/IMG_2814.jpeg"><img src="/img/IMG_2814.jpeg" alt="Sample photo"></a>
 </div>
+</div>
 
 <script>
   import PhotoSwipeLightbox from 'photoswipe/lightbox';
@@ -98,3 +100,5 @@ const lightbox = new PhotoSwipeLightbox({
 });
 lightbox.init();
 </script>
+
+
