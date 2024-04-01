@@ -89,6 +89,8 @@ This delightful Craftsman-style home is situated on the desirable westside of Sa
 </div>
 </div>
 
+
+
 <script>
   import PhotoSwipeLightbox from 'photoswipe/lightbox';
 import 'photoswipe/style.css';
