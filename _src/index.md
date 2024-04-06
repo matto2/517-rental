@@ -7,9 +7,9 @@ title: Charming Santa Cruz Craftsman!
 
 Near Mission Hill Junior High School
 
-<img src="/img/517-front_IMG_2778.jpeg" alt="Image of the front of the house">
+<h2 class="red">Open House - May 11 (tentative)</h2>
 
-<h2>Open House - May 11 (tentative)</h2>
+<img src="/img/517-front_IMG_2778.jpeg" alt="Image of the front of the house">
 
 This delightful Craftsman-style home is situated on the desirable westside of Santa Cruz, California. It boasts a convenient location within walking distance to bus stops, a health food store, restaurants, and downtown shopping. Nestled in a peaceful neighborhood, this home is ideally positioned midway between the entrance to UCSC and Cowell's Beach, offering a serene and desirable living environment.
 
